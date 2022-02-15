@@ -10,14 +10,25 @@
     <link href="https://unpkg.com/bootstrap-table@1.18.2/dist/bootstrap-table.min.css" rel="stylesheet">
     <script src="https://unpkg.com/bootstrap-table@1.18.2/dist/bootstrap-table.min.js"></script>
     <script src="https://unpkg.com/bootstrap-table@1.18.2/dist/extensions/filter-control/bootstrap-table-filter-control.min.js"></script>
-
+    <style>
+        .navbar-inverse {
+        background-color: #F8F8F8;
+        border-color: #E7E7E7;
+        }
+    </style>
 </head>
 
     <body>
-    <!-- Remove this line the first time you edit this file -->
-     This is the index page of your Django app!
-    <!--Add a nav bar here -->
-
+        <nav class="navbar navbar-light bg-light" role="navigation">
+            <a class="navbar-brand" href="#">Dealership Review</a>
+            <form class="form-inline my-2 my-lg-0 ml-auto">
+              <input class="form-control" type="username" placeholder="username" aria-label="username">
+              <input class="form-control" type="password" placeholder="password" aria-label="password">
+              <button class="btn btn-primary btn-md my-2 my-sm-0 ml-3" type="submit">Login</button>
+              <a class="btn btn-link" href="{% url 'djangoapp:registration' %}">Sign Up</button>
+            </form>
+          </nav>
+       
     <!--Add a dealer table here -->
 
     </body>
