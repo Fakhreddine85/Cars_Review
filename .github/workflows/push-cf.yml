@@ -6,7 +6,7 @@ on: workflow_dispatch
 env:
   IBM_CLOUD_REGION: us-south
   IBM_CLOUD_GROUP: Default
-  IBM_CLOUD_SPACE: dev
+  IBM_CLOUD_SPACE: djangoserver-space
   IBM_CLOUD_ORG: fakhriyo.us-south.cf.appdomain.cloud
   MANIFEST_NAME: manifest.yml
   IBM_CLOUD_API: _z0zut8kW2TgX37PQeR0uV3Pggdirt8n_8iri3E5fYzi
